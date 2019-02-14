@@ -247,3 +247,46 @@ body {
   background-image: url(../working/img/IMG_2545.jpg);
 }
 
+.footer {
+  height: 50px;
+  background: var(--primary);
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer__logo-upper {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: .75em;
+}
+
+.footer__logo-lower {
+  text-transform: lowercase;
+  font-family: 'Bad Script';
+  color: #ffd0b0;
+  margin-left: -.5em;
+  font-size: .75em;
+}
+
+.footer__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(228, 176, 99);
+  height: 50px;
+  width: 50px;
+}
+
+
+
