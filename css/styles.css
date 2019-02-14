@@ -18,17 +18,17 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: white;
-  position: relative;
 }
 
 .nav {
   height: 60px;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
+  top: 0;
   width: 100%;
   z-index: 900;
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.0));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,.0));
 }
 
 .container {
@@ -128,9 +128,9 @@ body {
 
 .about {
   margin-left: auto;
-  color: #1a1919;
+  color: #3b3131;
   text-align: right;
-  padding: 25px 0;
+  padding: 25px 0 50px 0;
   background: white;
 }
 
@@ -154,11 +154,12 @@ body {
   margin: auto;
   padding: 25px 0;
   color: #ffffff;
-  background: rgb(32, 32, 32);
+  background: rgb(58, 50, 50);
   text-align: center;
   display: flex;
   padding-bottom: 150px;
   margin: auto;
+  width: 80%;
   /* background-image: url(../working/img/IMG_2376-blur.jpg); */
   background-size: cover;
   background-attachment: fixed;
@@ -168,15 +169,19 @@ body {
 .cri__heading {
   font-size: 2em;
   margin-bottom: 0;
-  font-family: 'Georgia';
+  font-family: 'Raleway';
   font-weight: 300;
+}
+
+.cri__heading span {
+  font-size: .5em;
 }
 
 .blockquote {
   font-family: Georgia, serif;
     font-size: 18px;
     font-style: italic;
-    width: 850px;
+    max-width: 850px;
     margin: 0 auto 10px auto;
     padding: 0.35em 40px;
     line-height: 1.45;
@@ -232,10 +237,7 @@ body {
 }
 
 #cri__img-left {
-  background-image: url(../working/img/IMG_1692.jpg);
-  transform:rotate(90deg);
-  -ms-transform:rotate(90deg); /* IE 9 */
-  -webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */
+  background-image: url(../working/img/IMG_1692-r.jpg);
 }
 
 #cri__img-mid {
@@ -249,7 +251,7 @@ body {
 
 .footer {
   height: 50px;
-  background: var(--primary);
+  background: rgb(58, 50, 50);
   margin-top: 100px;
   display: flex;
   align-items: center;
@@ -258,7 +260,7 @@ body {
 .footer__container {
   display: flex;
   justify-content: space-between;
-  width: 100%
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
