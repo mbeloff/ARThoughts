@@ -90,7 +90,7 @@ body {
   height: 80vh;
   min-height: max-content;
   background: orange;
-  background-image: url(../working/img/brushes-orange.png);
+  background-image: url(../img/brushes-orange.png);
   background-color: var(--primary);
   background-size: cover;
   text-align: right;
@@ -116,7 +116,7 @@ body {
 
 .landing__img {
   position: absolute;
-  background-image: url(../working/img/photo-1459908676235-d5f02a50184b.jpg);
+  background-image: url(../img/photo-1459908676235-d5f02a50184b.jpg);
   background-size: cover;
   z-index: 100;
   width: 300px;
@@ -237,16 +237,16 @@ body {
 }
 
 #cri__img-left {
-  background-image: url(../working/img/IMG_1692-r.jpg);
+  background-image: url(../img/IMG_1692-r.jpg);
 }
 
 #cri__img-mid {
-  background-image: url(../working/img/IMG_1528.JPG);
+  background-image: url(../img/IMG_1528.JPG);
   width: 400px;
 }
 
 #cri__img-right {
-  background-image: url(../working/img/IMG_2545.jpg);
+  background-image: url(../img/IMG_2545.jpg);
 }
 
 .footer {
@@ -289,6 +289,3 @@ body {
   height: 50px;
   width: 50px;
 }
-
-
-
