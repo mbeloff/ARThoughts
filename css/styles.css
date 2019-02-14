@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  width: 800%;
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
@@ -154,7 +154,7 @@ body {
   margin: auto;
   padding: 25px 0;
   color: #ffffff;
-  background: rgb(163, 134, 80);
+  background: rgb(32, 32, 32);
   text-align: center;
   display: flex;
   padding-bottom: 150px;
