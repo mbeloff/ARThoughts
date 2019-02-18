@@ -3,14 +3,7 @@
 @import "_footer.scss";
 @import "_workshops.scss";
 @import "_gallery.scss";
-
-.btn {
-  border: none;
-  background: white;
-  padding: 10px 30px 10px 30px;
-  border-radius: 20px;
-  height: 40px;
-}
+@import "_contact";
 
 .landing {
   height: 80vh;

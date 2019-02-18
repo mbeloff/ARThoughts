@@ -1,0 +1,46 @@
+.contact__h1 {
+  font-size: 3em;
+}
+
+.contact-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contact__left {
+  text-align: right;
+  width: 50%;
+  padding-right: 25px;
+  border-right: 1px solid black;
+}
+
+.contact__right {
+  text-align: left;
+  width: 50%;
+  padding-left: 25px;
+}
+
+.studio__name {
+  color: $primary-color;
+}
+
+.contact__method {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat'
+}
+
+.contact__btn {
+  border: none;
+  background: $primary-color;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  height: 40px;
+  &:hover {
+    background: $dark-color;
+  }
+  &:hover a {
+    color: $primary-color;
+  }
+}
+

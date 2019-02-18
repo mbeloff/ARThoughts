@@ -4,30 +4,35 @@
   margin-top: 100px;
   display: flex;
   align-items: center;
+  box-shadow: $shadow;
 }
 
 .footer__container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: auto;
 }
 
-.footer__logo-upper {
-  text-transform: uppercase;
-  font-family: 'Montserrat';
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: .75em;
+.copy {
+  font-size: .9em;
+  font-family: "montserrat"
 }
 
-.footer__logo-lower {
-  text-transform: lowercase;
-  font-family: 'Bad Script';
-  color: #ffd0b0;
-  margin-left: -.5em;
-  font-size: .75em;
+.social {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.social-icon {
+  margin: 0 2px 0 2px;
+  transition: transform 150ms;
+  &:hover {
+    color: white;
+    transform: scale(1.1);
+  }
 }
 
 .footer__arrow {

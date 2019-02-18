@@ -50,3 +50,18 @@
 .nav__btn .nav__link {
   color: $primary-color;
 }
+
+.btn {
+  border: none;
+  background: white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  height: 40px;
+  transition: all 150ms;
+  &:hover {
+    background: $primary-color;
+  }
+  &:hover a {
+    color: white;
+  }
+}
