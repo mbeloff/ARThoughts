@@ -11,35 +11,43 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
 </head>
-
 <body>
-  <nav class="nav">
-    <div class="container nav__container">
-      <h1 class="nav__logo-upper">ART<span class="nav__logo-lower">thoughts</span></h1>
-      <ul class="nav__menu">
-        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Bob Ross CRI®</a></li>
-        <li class="nav__item"><a href="/views/workshops.html" class="nav__link">Workshops</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
-        <li class="nav__item"><button class="btn nav__btn"><a href="/views/contact.html" class="nav__link ">Contact</a></button></li>
+<header class="header">
+<nav class="container">
+      <img src="img/logo.png" alt="">
+      <ul class="nav-list">
+        <li><a class="nav-item active" href="#">Home</a></li>
+        <li><a class="nav-item" href="#about">About</a></li>
+        <li><a class="nav-item" href="#">Wokshops</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li><a class="dropdown-item" href="#whattoexpect">What to expect</a></li>
+              <li><a class="dropdown-item" href="#halfday">Half-day</a></li>
+              <li><a class="dropdown-item" href="#fullday">Full-day</a></li>
+              <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="nav-item" href="#">Blog</a></li>
+        <li><a class="nav-item" href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+</header>
+
   <main>
-    <section class="landing">
+    <section class="landing" id="banner">
       <div class="container">
         <div class="landing__content">
           <h1 class="landing__heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, quam?</h1>
           <p class="landing__sub">A brief quote or a statement about maaret/cri/the webite</p>
         </div>
-        <div class="landing__img"></div>
       </div>
     </section>
     <section class="about">
       <div class="container">
         <div class="about__content">
         <div class="about__top">
-          <h1 class="about__heading">Maaret Webb</h1>
+          <h1 class="about__heading"  id="about">Maaret Webb</h1>
           <h2 class="about__sub">Teaching Artist</h2>
         </div>
 
@@ -67,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="cri">
+    <section class="cri" id="cri">
       <div class="container">
           <h1 class="cri__heading">Bob Ross CRI <span>®</span></h1>
           <blockquote class="blockquote">Lorem isum dolor sit amet consectetur adipisicing elit. Modi corporis rem
@@ -85,7 +93,119 @@
       <div class="cri__img" id="cri__img-mid"></div>
       <div class="cri__img" id="cri__img-right"></div>
     </div>
+    <section class="landing landing-small">
+      <div class="container">
+        <div class="landing__content">
+          <h1 class="landing__heading">Workshops something something</h1>
+          <p class="landing__sub">This is where we find out about workshops and there's a gallery down the bottom</p>
+        </div>
+      </div>
+    </section>
+    <section class="expect" id="whattoexpect">
+      <div class="container">
+        <div class="workshop">
+          <h1 class="workshop__h1">What to expect</h1>
+          <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugiat accusamus
+            quaerat exercitationem voluptates cum voluptatem velit sapiente, nostrum illum perferendis voluptas
+            reprehenderit dolore quod facere inventore quos eos corrupti veritatis voluptatum deleniti et ex. Enim sunt
+            magni esse consectetur, doloremque inventore unde assumenda, minima placeat veniam accusantium quasi natus
+            tenetur quo! Similique, quas omnis tempore voluptatem libero quae ipsam!</p>
+        </div>
+      </div>
+    </section>
+    <section class="halfday" id="halfday">
+      <div class="container">
+        <div class="workshop">
+          <h1 class="workshop__h1">Half Day Workshops</h1>
+          <p class="workshop__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque est
+            exercitationem voluptatem eaque, corrupti mollitia libero! Voluptatum, earum similique. Non delectus labore
+            at illum explicabo tempore quidem consequatur alias, ut commodi aut cupiditate, beatae expedita omnis nisi
+            deserunt illo consectetur consequuntur voluptatibus odit! Fugit doloribus facere eaque itaque dolorum!</p>
 
+          <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio consectetur
+            eaque reiciendis nam repudiandae, quia soluta voluptatum eligendi esse omnis odit commodi possimus officiis
+            blanditiis magni adipisci, modi dolorem. Optio, magni sunt!</p>
+          <ul class="workshop__list">
+            <li class="workshop__list-item">lorem</li>
+            <li class="workshop__list-item">ipsum</li>
+            <li class="workshop__list-item">dolor</li>
+            <li class="workshop__list-item">sit amet</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="fullday" id="fullday">
+      <div class="container">
+        <div class="workshop">
+          <h1 class="workshop__h1">Full Day Workshops</h1>
+          <p class="workshop__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque est
+            exercitationem voluptatem eaque, corrupti mollitia libero! Voluptatum, earum similique. Non delectus labore
+            at illum explicabo tempore quidem consequatur alias, ut commodi aut cupiditate, beatae expedita omnis nisi
+            deserunt illo consectetur consequuntur voluptatibus odit! Fugit doloribus facere eaque itaque dolorum!</p>
+
+          <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio consectetur
+            eaque reiciendis nam repudiandae, quia soluta voluptatum eligendi esse omnis odit commodi possimus officiis
+            blanditiis magni adipisci, modi dolorem. Optio, magni sunt!</p>
+          <ul class="workshop__list">
+            <li class="workshop__list-item">lorem</li>
+            <li class="workshop__list-item">ipsum</li>
+            <li class="workshop__list-item">dolor</li>
+            <li class="workshop__list-item">sit amet</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="pictures" id="gallery">
+      <div class="gallery-container">
+        <div class="gallery">
+          <div class="gallery__item img-1"><img src="https://source.unsplash.com/random/400x400/?nature"></div>
+          <div class="gallery__item img-2"><img src="https://source.unsplash.com/random/400x400/?water"></div>
+          <div class="gallery__item img-3"><img src="https://source.unsplash.com/random/400x400/?trees"></div>
+          <div class="gallery__item img-4"><img src="https://source.unsplash.com/random/400x400/?insect"></div>
+          <div class="gallery__item img-5"><img src="https://source.unsplash.com/random/400x400/?volcano"></div>
+          <div class="gallery__item img-6"><img src="https://source.unsplash.com/random/400x400/?earth"></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container contact-container">
+        <div class="contact__left">
+          <h1 class="contact__h1">Studios</h1>
+          <div class="studios">
+            <h2 class="studio__country">Australia</h2>
+            <div class="studio-1">
+              <p class="studio__address"><span class="studio__name">James Street Atelier</span><br>Burleigh Heads<br>Gold
+                Coast<br>QLD 4220</p>
+            </div>
+            <div class="studio-2">
+              <p class="studio__address"><span class="studio__name">Studio Name</span><br>suburb<br>Brisbane<br>QLD
+                postcode</p>
+            </div>
+            <h2 class="studio__country">New Zealand</h2>
+            <div class="studio-3">
+              <p class="studio__address">4 Lancewood Lane <br>Queenstown 9300</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__right">
+          <h1 class="contact__h1">Contact</h1>
+          <div class="contacts">
+            <h2>Phone:</h2>
+            <p>0455083696</p>
+            <button class="contact__btn">
+              <a class="contact__method" href="tel:+61455083696">Call</a>
+            </button>
+            <h2>Email:</h2>
+            <p>sademaaret@yahoo.com.au</p>
+            <button class="contact__btn">
+              <a class="contact__method" href="mailto:sademaaret@yahoo.com.au">Email</a>
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container footer__container">
@@ -101,6 +221,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
