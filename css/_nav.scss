@@ -9,7 +9,14 @@
   height: 47px;
   transition: background-color 1s;
   @media only screen and (max-width: $break-med) {
-    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+}
+
+.logo {
+  @media only screen and (max-width: $break-med){
+    display: none;
   }
 }
 
@@ -31,6 +38,9 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  @media only screen and (max-width: $break-med){
+    padding: 14px 2%;
+  }
 }
 
 /* The subnavigation menu */
@@ -49,6 +59,9 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  @media only screen and (max-width: $break-med){
+    padding: 14px 2%;
+  }
 }
 
 /* Add a red background color to navigation links on hover */

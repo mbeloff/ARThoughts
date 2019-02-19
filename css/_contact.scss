@@ -1,10 +1,60 @@
 .contact__h1 {
-  font-size: 3em;
+  font-size: 2em;
+  @media only screen and (max-width: $break-small){
+    font-size: 1.5em;
+    margin: 0;
+  }
 }
 
-.contact-container {
+.contact__h2, .studio__country {
+  font-size: 1.2em;
+  @media only screen and (max-width: $break-small){
+    margin: 20px 0 5px 0;
+  }
+}
+
+.studio-container {
   display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: $break-small){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7px;
+  }
+}
+
+.studio-1 {
+  grid-column: 1/2;
+  @media only screen and (max-width: $break-small){
+
+  }
+}
+
+.studio-2 {
+  grid-column: 2/3;
+  @media only screen and (max-width: $break-small){
+
+  }
+}
+
+.contacts > div {
+  @media only screen and (max-width: $break-small){
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 50%;
+    margin: auto;
+  }
+}
+
+
+.contact-container {
+  width: 100%;
   margin-top: 50px;
+  display: flex;
+  @media only screen and (max-width: $break-small){
+    display: grid;
+    grid-template-rows: auto auto;
+  }
 }
 
 .contact__left {
@@ -12,12 +62,23 @@
   width: 50%;
   padding-right: 25px;
   border-right: 1px solid black;
+  @media only screen and (max-width: $break-small){
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    border: none;
+  }
 }
 
 .contact__right {
   text-align: left;
   width: 50%;
   padding-left: 25px;
+  @media only screen and (max-width: $break-small){
+    width: 100%;
+    text-align: center;
+    padding: 0
+  }
 }
 
 .studio__name {
@@ -36,6 +97,9 @@
   &:hover {
     background: rgb(58, 50, 50);
     color: $primary-color;
+  }
+  @media only screen and (max-width: $break-small) {
+    display: inline-block;
   }
 }
 
