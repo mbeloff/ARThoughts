@@ -191,6 +191,9 @@
   margin-top: -100px;
   margin-left: auto;
   margin-right: auto;
+  @media only screen and (max-width: $break-med){
+    width: 90%;
+  }
 }
 
 .cri__img {
@@ -199,6 +202,7 @@
   background: black;
   margin: 5px;
   background-size: cover;
+  background-position: center;
   box-shadow: $shadow;
 }
 
