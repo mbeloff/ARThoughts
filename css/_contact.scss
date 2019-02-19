@@ -24,22 +24,17 @@
   color: $primary-color;
 }
 
-.contact__method {
+.contact__btn {
   text-decoration: none;
   color: white;
-  font-family: 'Montserrat'
-}
-
-.contact__btn {
+  font-family: 'Montserrat';
   border: none;
   background: $primary-color;
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
   height: 40px;
   &:hover {
-    background: $dark-color;
-  }
-  &:hover a {
+    background: rgb(58, 50, 50);
     color: $primary-color;
   }
 }

@@ -2,7 +2,6 @@
 @import "_nav.scss";
 @import "_footer.scss";
 @import "_workshops.scss";
-@import "_gallery.scss";
 @import "_contact";
 
 .landing {
@@ -107,7 +106,7 @@
   margin: auto;
   padding: 25px 0;
   color: #ffffff;
-  background: #16161b;
+  background: rgb(58, 50, 50);
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -200,4 +199,8 @@
 
 #cri__img-right {
   background-image: url(../img/IMG_2545.jpg);
+}
+
+.expect {
+  padding-top: 100px;
 }
