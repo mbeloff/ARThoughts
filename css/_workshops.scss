@@ -35,6 +35,10 @@
   grid-template-columns: repeat(8, 7vw);
   grid-template-rows: repeat(6, 7vw);
   grid-gap: 5px;
+  @media only screen and (max-width: $break-med){
+    grid-template-columns: repeat(8, 10vw);
+  grid-template-rows: repeat(6, 10vw);
+  }
 }
 
 .gallery__item {

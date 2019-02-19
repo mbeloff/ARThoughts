@@ -229,6 +229,12 @@ body {
   -ms-grid-rows: (7vw)[6];
       grid-template-rows: repeat(6, 7vw);
   grid-gap: 5px; }
+  @media only screen and (max-width: 768px) {
+    .gallery {
+      -ms-grid-columns: (10vw)[8];
+          grid-template-columns: repeat(8, 10vw);
+      -ms-grid-rows: (10vw)[6];
+          grid-template-rows: repeat(6, 10vw); } }
 
 .gallery__item {
   width: 100%;
