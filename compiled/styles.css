@@ -468,7 +468,7 @@ body {
 
 .about__content {
   width: 50%;
-  margin: 40px 5% 0 auto;
+  margin: 40px auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
@@ -476,7 +476,8 @@ body {
   grid-gap: 20px; }
   @media only screen and (max-width: 768px) {
     .about__content {
-      width: 100%; } }
+      width: 90%;
+      text-align: center; } }
 
 .about__top {
   -ms-grid-column: 1;
@@ -559,7 +560,8 @@ body {
 
 .blockquote {
   font-family: Georgia, serif;
-  font-size: 18px;
+  font-weight: 100;
+  font-size: 14px;
   font-style: italic;
   max-width: 850px;
   margin: 0 auto 10px auto;
