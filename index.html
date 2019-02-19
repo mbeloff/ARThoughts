@@ -12,27 +12,24 @@
     crossorigin="anonymous">
 </head>
 <body>
-<header class="header">
-<nav class="container">
-      <img src="img/logo.png" alt="">
-      <ul class="nav-list">
-        <li><a class="nav-item active" href="#">Home</a></li>
-        <li><a class="nav-item" href="#about">About</a></li>
-        <li><a class="nav-item" href="#">Wokshops</a>
-          <div class="dropdown">
-            <ul class="dropdown-list">
-              <li><a class="dropdown-item" href="#whattoexpect">What to expect</a></li>
-              <li><a class="dropdown-item" href="#halfday">Half-day</a></li>
-              <li><a class="dropdown-item" href="#fullday">Full-day</a></li>
-              <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><a class="nav-item" href="#">Blog</a></li>
-        <li><a class="nav-item" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-</header>
+<div class="navbar">
+  <div><a href="#home">LOGO</a></div>
+  <div>
+  <a href="#about">About</a>
+  <div class="subnav">
+    <button class="subnavbtn">Workshops <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#whattoexpect">What to expect</a>
+      <a href="#fullday">Full-Day</a>
+      <a href="#halfday">Half-Day</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+  </div>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+  </div>
+
+</div>
 
   <main>
     <section class="landing" id="banner">
@@ -93,7 +90,7 @@
       <div class="cri__img" id="cri__img-mid"></div>
       <div class="cri__img" id="cri__img-right"></div>
     </div>
-    <section class="landing landing-small">
+    <section class="landing landing-small" id="workshops">
       <div class="container">
         <div class="landing__content">
           <h1 class="landing__heading">Workshops something something</h1>
@@ -163,11 +160,11 @@
           <div class="gallery__item img-3"><img src="https://source.unsplash.com/random/400x400/?trees"></div>
           <div class="gallery__item img-4"><img src="https://source.unsplash.com/random/400x400/?insect"></div>
           <div class="gallery__item img-5"><img src="https://source.unsplash.com/random/400x400/?volcano"></div>
-          <div class="gallery__item img-6"><img src="https://source.unsplash.com/random/400x400/?earth"></div>
+          <div class="gallery__item img-6"><img src="https://source.unsplash.com/random/400x400/?earth"></div> #}
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container contact-container">
         <div class="contact__left">
           <h1 class="contact__h1">Studios</h1>

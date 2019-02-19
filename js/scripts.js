@@ -3,9 +3,29 @@ $(document).ready(function() {
   $(window).scroll(function() {
     // checks if window is scrolled more than 500px, adds/removes solid class
     if($(this).scrollTop() > 320) {
-        $('.header').addClass('solid');
+        $('.navbar').addClass('solid');
     } else {
-        $('.header').removeClass('solid');
+        $('.navbar').removeClass('solid');
     }
   });
+});
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if( target.length ) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: target.offset().top - 159
+      }, 10);
+  }
+});
+
+$('#home').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if( target.length ) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: target.offset().top
+      }, 10);
+  }
 });
