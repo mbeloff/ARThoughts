@@ -21,7 +21,7 @@ body {
   @media only screen and (max-width: 500px) {
     .container {
       width: 100%;
-      padding: 10px; } }
+      padding: 0 10px; } }
 
 .navbar {
   display: -webkit-box;
@@ -43,6 +43,16 @@ body {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end; } }
+
+@media only screen and (max-width: 768px) {
+  .nav-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%; } }
 
 @media only screen and (max-width: 768px) {
   .logo {
@@ -196,7 +206,8 @@ body {
   font-size: 3em; }
   @media only screen and (max-width: 500px) {
     .workshops__h1 {
-      margin-left: 0; } }
+      margin-left: 0;
+      font-size: 2em; } }
 
 .workshop {
   margin: 50px 0; }
@@ -624,5 +635,5 @@ body {
   background-image: url(../img/IMG_2545.jpg); }
 
 .expect {
-  padding-top: 100px; }
+  padding-top: 50px; }
 /*# sourceMappingURL=styles.css.map */
