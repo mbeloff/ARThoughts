@@ -54,7 +54,7 @@ body {
             justify-content: flex-end;
     width: 100%; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
   .logo {
     display: none; } }
 
@@ -78,7 +78,7 @@ body {
   text-decoration: none; }
   @media only screen and (max-width: 768px) {
     .navbar a {
-      padding: 14px 2%;
+      padding: 14px 10px;
       font-size: 12px; } }
 
 /* The subnavigation menu */
@@ -312,7 +312,10 @@ body {
   grid-row: 5/7; }
 
 .contact__h1 {
-  font-size: 2em; }
+  font-size: 2em;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #fa8424;
+          text-decoration-color: #fa8424; }
   @media only screen and (max-width: 500px) {
     .contact__h1 {
       font-size: 1.5em;
