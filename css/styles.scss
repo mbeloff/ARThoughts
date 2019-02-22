@@ -19,7 +19,7 @@
 }
 
 #banner {
-  background-image: url(../img/brushes-orange.png);
+  background-image: url(../img/head.jpg);
 }
 
 .landing-small {
@@ -27,21 +27,36 @@
   margin-top: 100px;
 }
 
+.landing-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .landing__content {
-  margin-top: 100px;
+  padding-right: 20px;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 40px 10% 150px auto;
-  color: white;
+  max-width: 520px;
+  @media only screen and (max-width: $break-med){
+    max-width: 320px;
+  }
+  color: rgb(255, 255, 255);
+  // text-shadow: 1px 1px 50px rgba(0, 0, 0, 0.247), 1px 1px 30px rgba(0, 0, 0, 0.377);
+  background: rgba(17, 17, 17, 0.479);
+  border-radius: 10px;
+  box-shadow: $shadow;
 }
 
 .landing__heading {
-  width: 60%;
+  font-family: $font-hand;
+  color: rgb(255, 255, 255);
+  letter-spacing: .1em;
+  font-size: 3em;
   margin-left: auto;
-  @media only screen and (max-width: $break-med){
-    width: 100%;
-  }
+}
+
+.landing__sub {
+  font-size: 1.2em;
 }
 
 .about {
@@ -93,7 +108,7 @@
 }
 
 .about__value {
-  font-family: "Raleway";
+  font-family: $font-1;
   text-align: left;
   grid-column: 2/3;
   margin: 0;
@@ -127,10 +142,10 @@
 }
 
 .cri__heading {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 0;
-  font-family: 'Raleway';
-  font-weight: 300;
+  font-family: $font-hand;
+  font-weight: 600;
 }
 
 .cri__heading span {
@@ -139,7 +154,6 @@
 
 .blockquote {
   font-family: Georgia, serif;
-  font-weight: 100;
     font-size: 14px;
     font-style: italic;
     max-width: 850px;

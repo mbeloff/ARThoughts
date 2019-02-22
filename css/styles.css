@@ -9,8 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
   color: #0f0f0f;
   overflow-x: hidden; }
 
@@ -61,10 +60,10 @@ body {
 .navbar:hover {
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
-  background-color: #fa8424; }
+  background-color: #fa7a24; }
 
 .navbar.solid {
-  background-color: #fa8424;
+  background-color: #fa7a24;
   -webkit-box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
           box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02); }
 
@@ -134,7 +133,7 @@ body {
 /* Add a grey background color on hover */
 .subnav-content a:hover {
   background-color: white;
-  color: #fa8424; }
+  color: #fa7a24; }
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
@@ -225,7 +224,7 @@ body {
   height: 0.75rem;
   width: 0.75rem;
   margin-right: 0.5rem;
-  border: 1px solid #fa8424; }
+  border: 1px solid #fa7a24; }
 
 .gallery-container {
   display: -webkit-box;
@@ -314,8 +313,8 @@ body {
 .contact__h1 {
   font-size: 2em;
   text-decoration: underline;
-  -webkit-text-decoration-color: #fa8424;
-          text-decoration-color: #fa8424; }
+  -webkit-text-decoration-color: #fa7a24;
+          text-decoration-color: #fa7a24; }
   @media only screen and (max-width: 500px) {
     .contact__h1 {
       font-size: 1.5em;
@@ -398,20 +397,20 @@ body {
       padding: 0; } }
 
 .studio__name {
-  color: #fa8424; }
+  color: #fa7a24; }
 
 .contact__btn {
   text-decoration: none;
   color: white;
   font-family: 'Montserrat';
   border: none;
-  background: #fa8424;
+  background: #fa7a24;
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
   height: 40px; }
   .contact__btn:hover {
     background: #3a3232;
-    color: #fa8424; }
+    color: #fa7a24; }
   @media only screen and (max-width: 500px) {
     .contact__btn {
       display: inline-block; } }
@@ -422,7 +421,7 @@ body {
   min-height: -moz-max-content;
   min-height: max-content;
   background: orange;
-  background-color: #fa8424;
+  background-color: #fa7a24;
   background-size: cover;
   text-align: right;
   display: -webkit-box;
@@ -439,14 +438,22 @@ body {
           box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02); }
 
 #banner {
-  background-image: url(../img/brushes-orange.png); }
+  background-image: url(../img/head.jpg); }
 
 .landing-small {
   height: 250px;
   margin-top: 100px; }
 
+.landing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 .landing__content {
-  margin-top: 100px;
+  padding-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,16 +461,25 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
-  margin: 40px 10% 150px auto;
-  color: white; }
+  max-width: 520px;
+  color: white;
+  background: rgba(17, 17, 17, 0.479);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02); }
+  @media only screen and (max-width: 768px) {
+    .landing__content {
+      max-width: 320px; } }
 
 .landing__heading {
-  width: 60%;
+  font-family: "Berkshire Swash";
+  color: white;
+  letter-spacing: .1em;
+  font-size: 3em;
   margin-left: auto; }
-  @media only screen and (max-width: 768px) {
-    .landing__heading {
-      width: 100%; } }
+
+.landing__sub {
+  font-size: 1.2em; }
 
 .about {
   margin-left: auto;
@@ -518,7 +534,7 @@ body {
   margin: 0; }
 
 .about__value {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-align: left;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -538,7 +554,7 @@ body {
 .cri {
   margin: 50px auto 0 auto;
   padding: 25px 0;
-  color: #fa8424;
+  color: #fa7a24;
   background: #3a3232;
   text-align: center;
   display: -webkit-box;
@@ -554,17 +570,16 @@ body {
       width: 100%; } }
 
 .cri__heading {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 0;
-  font-family: 'Raleway';
-  font-weight: 300; }
+  font-family: "Berkshire Swash";
+  font-weight: 600; }
 
 .cri__heading span {
   font-size: .5em; }
 
 .blockquote {
   font-family: Georgia, serif;
-  font-weight: 100;
   font-size: 14px;
   font-style: italic;
   max-width: 850px;
