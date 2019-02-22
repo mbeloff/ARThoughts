@@ -47,7 +47,24 @@
   height: 100%;
   position: relative;
   box-shadow: $shadow;
+  transition: all 1s ease-in;
+  &:hover {
+     animation: swing .3s ease-in-out;
+     z-index: 100;
+  }
 }
+
+@keyframes swing
+{
+    50%
+    {       
+        transform: scale(1.01);
+    }
+    100%
+    {       
+        transform: scale(1);
+    }
+  }
 
 .gallery__item img {
   width: 100%;
