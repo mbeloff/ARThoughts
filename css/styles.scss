@@ -49,79 +49,20 @@
 
 .landing__heading {
   font-family: $font-hand;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.836);
   letter-spacing: .1em;
   font-size: 3em;
   margin-left: auto;
+  position: relative;
+  & span {
+    font-family: $font-2;
+    font-size: .5em;
+    position: absolute;
+  }
 }
 
 .landing__sub {
   font-size: 1.2em;
-}
-
-.about {
-  margin-left: auto;
-  color: #3b3131;
-  text-align: right;
-  padding: 45px 0 0 0;
-  background: white;
-}
-
-.about__content {
-  width: 50%;
-  margin: 40px auto 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 20px;
-  @media only screen and (max-width: $break-med) {
-    width: 90%;
-    text-align: center;
-  }
-}
-
-.about__top {
-  grid-column: 1/3;
-}
-
-.about__heading {
-  font-family: 'Georgia';
-  font-style: italic;
-  font-size: 2em;
-  margin: 0;
-  margin-left: 20px;
-  grid-column: 1/3;
-  text-align: left;
-}
-
-.about__sub {
-  margin: 0;
-  grid-column: 1/3;
-  text-align: center;
-  font-weight: 300;
-}
-
-.about__prop {
-  text-align: right;
-  grid-column: 1/2;
-  font-weight: 600;
-  margin: 0;
-}
-
-.about__value {
-  font-family: $font-1;
-  text-align: left;
-  grid-column: 2/3;
-  margin: 0;
-  letter-spacing: .05em;
-}
-
-.about__value span {
-  font-style: italic;
-}
-
-.about__cri {
-  grid-column: 2/3;
-  text-align: left;
 }
 
 .cri {
@@ -146,6 +87,12 @@
   margin-bottom: 0;
   font-family: $font-hand;
   font-weight: 600;
+  position: relative;
+  & span {
+    font-family: $font-2;
+    font-size: .5em;
+    position: absolute;
+  }
 }
 
 .cri__heading span {
@@ -156,7 +103,9 @@
   font-family: Georgia, serif;
     font-size: 14px;
     font-style: italic;
-    max-width: 850px;
+    color: rgba(221, 217, 217, 0.897);
+    letter-spacing: .1em;
+    max-width: 450px;
     margin: 0 auto 10px auto;
     padding: 0.35em 40px;
     line-height: 1.45;
@@ -184,14 +133,12 @@
 }
 
 .cri__p {
-  columns: 2;
-  text-align: justify;
+  text-align: left;
   width: 100%;
   max-width: 800px;
   margin: auto;
   line-height: 1;
   @media only screen and (max-width: $break-med){
-    columns: 1;
     text-align: left;
   }
 }
