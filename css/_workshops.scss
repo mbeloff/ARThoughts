@@ -1,5 +1,18 @@
 .workshop {
   margin: 50px 0;
+  line-height: 1.4em;;
+}
+
+.workshop__h1 {
+  font-family: $font-hand;
+  color: $primary-color;
+  font-size: 3em; 
+    color: white;
+    text-shadow:
+    -1px -1px 0 $primary-color,
+    1px -1px 0 $primary-color,
+    -1px 1px 0 $primary-color,
+    1px 1px 0 $primary-color;  
 }
 
 #whattoexpect {
