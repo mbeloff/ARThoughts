@@ -36,3 +36,15 @@ body {
     padding: 0 10px;
   }
 }
+
+.btn {
+  background: white;
+  padding: 15px 25px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  color: $primary-color;
+  &:hover,&:active {
+    background: $primary-color;
+    color: white;
+  }
+}
