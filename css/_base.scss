@@ -43,8 +43,34 @@ body {
   border: 1px solid $primary-color;
   border-radius: 5px;
   color: $primary-color;
-  &:hover,&:active {
+  cursor: pointer;
+  &:hover {
     background: $primary-color;
     color: white;
+  }
+  // &:focus {
+  //   background: $primary-color;
+  //   color: white;
+  // }
+}
+
+.active {
+  background: $primary-color;
+  color: white;
+  position: relative;
+  outline: none;
+  z-index: 2;
+  &::before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: $primary-color;
+    display: block;
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 45%;
+    transform: rotate(45deg);
+    z-index: -1;
+    
   }
 }

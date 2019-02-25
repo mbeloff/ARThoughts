@@ -21,12 +21,12 @@
         <button class="subnavbtn">Workshops <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
           <a href="#whattoexpect">What to expect</a>
-          <a href="#halfday">Half-Day</a>
-          <a href="#fullday">Full-Day</a>
+          <a id="nav-half-toggle" href="#cards">Half-Day</a>
+          <a id="nav-full-toggle" href="#cards">Full-Day</a>
           <a href="#gallery">Gallery</a>
         </div>
       </div>
-      <a href="#blog">Blog</a>
+      <a href="/views/blog.html">Blog</a>
       <a href="/views/contact.html#contact">Contact</a>
     </div>
 
@@ -61,7 +61,6 @@
     </div>
     <section class="expect">
       <div class="container">
-        <h1 class="workshops__h1">Workshops</h1>
         <div class="workshop">
           <h1 class="workshop__h1" id="whattoexpect">What to expect</h1>
           <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugiat accusamus
@@ -72,10 +71,10 @@
         </div>
       </div>
     </section>
-    <section class="cards">
+    <section class="cards" id="cards">
       <div class="container card-container">
-        <div class="card">
-          <div class="card__img"></div>
+        <div class="card card-full">
+          <div class="card__img full__img"></div>
           <div class="card__content">
             <h1 class="card__heading">Full Day Workshop</h1>
             <ul class="card__list">
@@ -83,11 +82,33 @@
               <li class="card__item">One large painting (18 x 24 inches)</li>
               <li class="card__item">By booking only (groups of up to 20)</li>
             </ul>
-            <button class="btn card__btn">Learn More</button>
+            <button class="btn card__btn" id="full-toggle">Learn More</button>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img"></div>
+        <section class="fullday" id="fullday">
+            <div class="container">
+              <div class="workshop">
+                <h1 class="workshop__h1">Full Day Workshops</h1>
+                <p class="workshop__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque est
+                  exercitationem voluptatem eaque, corrupti mollitia libero! Voluptatum, earum similique. Non delectus labore
+                  at illum explicabo tempore quidem consequatur alias, ut commodi aut cupiditate, beatae expedita omnis nisi
+                  deserunt illo consectetur consequuntur voluptatibus odit! Fugit doloribus facere eaque itaque dolorum!</p>
+      
+                <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio consectetur
+                  eaque reiciendis nam repudiandae, quia soluta voluptatum eligendi esse omnis odit commodi possimus officiis
+                  blanditiis magni adipisci, modi dolorem. Optio, magni sunt!</p>
+                <ul class="workshop__list">
+                  <li class="workshop__list-item">lorem</li>
+                  <li class="workshop__list-item">ipsum</li>
+                  <li class="workshop__list-item">dolor</li>
+                  <li class="workshop__list-item">sit amet</li>
+                </ul>
+                <button class="btn enq-btn">Enquire Now</button>
+              </div>
+            </div>
+          </section>
+        <div class="card card-half">
+          <div class="card__img half__img"></div>
           <div class="card__content">
             <h1 class="card__heading">Half Day Workshops</h1>
             <ul class="card__list">
@@ -95,11 +116,13 @@
               <li class="card__item">Complete 4 different paintings: e.g. almighty mountains, seascape, deep forest, waterfall/rivers</li>
               <li class="card__item">Something else!</li>
             </ul>
-            <button class="btn card__btn">Learn More</button>
+            <button class="btn card__btn" id="half-toggle">Learn More</button>
           </div>
         </div>
       </div>
+
     </section>
+    
     <section class="halfday" id="halfday">
       <div class="container">
         <div class="workshop">
@@ -118,30 +141,11 @@
             <li class="workshop__list-item">dolor</li>
             <li class="workshop__list-item">sit amet</li>
           </ul>
+          <button class="btn enq-btn">Enquire Now</button>
         </div>
       </div>
     </section>
-    <section class="fullday" id="fullday">
-      <div class="container">
-        <div class="workshop">
-          <h1 class="workshop__h1">Full Day Workshops</h1>
-          <p class="workshop__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque est
-            exercitationem voluptatem eaque, corrupti mollitia libero! Voluptatum, earum similique. Non delectus labore
-            at illum explicabo tempore quidem consequatur alias, ut commodi aut cupiditate, beatae expedita omnis nisi
-            deserunt illo consectetur consequuntur voluptatibus odit! Fugit doloribus facere eaque itaque dolorum!</p>
-
-          <p class="workshop__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio consectetur
-            eaque reiciendis nam repudiandae, quia soluta voluptatum eligendi esse omnis odit commodi possimus officiis
-            blanditiis magni adipisci, modi dolorem. Optio, magni sunt!</p>
-          <ul class="workshop__list">
-            <li class="workshop__list-item">lorem</li>
-            <li class="workshop__list-item">ipsum</li>
-            <li class="workshop__list-item">dolor</li>
-            <li class="workshop__list-item">sit amet</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    
     <section class="pictures" id="gallery">
       <div class="gallery-container">
         <div class="gallery">
