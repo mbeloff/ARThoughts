@@ -23,12 +23,12 @@
 .workshop__list-item::before {
   display: inline-block;
   content: '';
-  -webkit-border-radius: 0.375rem;
-  border-radius: 0.375rem;
-  height: 0.75rem;
-  width: 0.75rem;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
   margin-right: 0.5rem;
-  border: 1px solid $primary-color;
+  border: 2px solid $primary-color;
 }
 
 .gallery-container {
@@ -149,17 +149,18 @@
   margin: auto;
   flex: 3;
   padding: 0;
+  line-height: 1.5em;
 }
 
 .card__item::before {
     display: inline-block;
   content: '';
-  -webkit-border-radius: 0.375rem;
-  border-radius: 0.375rem;
-  height: 0.75rem;
-  width: 0.75rem;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
   margin-right: 0.5rem;
-  border: 1px solid $primary-color;
+  border: 2px solid $primary-color;
 }
 
 .card-btn {

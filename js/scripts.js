@@ -33,18 +33,20 @@ $('#home').on('click', function(event) {
 });
 
 //toggle elements
-$(document).ready(function() {
+
   $("#full-toggle, #nav-full-toggle").click(function(){
-    $("#halfday").slideUp(500); 
-    $("#fullday").slideToggle(500);
+    $("#halfday").slideUp(300,function(){
+      $("#fullday").slideToggle(300);
+    });    
     $(document.querySelector("#full-toggle")).toggleClass("active");
     $(document.querySelector("#half-toggle")).removeClass("active");
   })
 
   $("#half-toggle, #nav-half-toggle").click(function(){    
-    $("#fullday").slideUp(); 
-    $("#halfday").slideToggle(500);
+    $("#fullday").slideUp(300,function(){
+      $("#halfday").slideToggle(300);
+    });     
     $(document.querySelector("#half-toggle")).toggleClass("active");  
     $(document.querySelector("#full-toggle")).removeClass("active");     
   })
-});
+
