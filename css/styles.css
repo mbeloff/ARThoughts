@@ -242,6 +242,7 @@ body {
 .workshop__h1 {
   font-family: "Berkshire Swash";
   color: #fa7a24;
+  line-height: 1.25em;
   font-size: 3em;
   color: white;
   text-shadow: -1px -1px 0 #fa7a24, 1px -1px 0 #fa7a24, -1px 1px 0 #fa7a24, 1px 1px 0 #fa7a24; }
