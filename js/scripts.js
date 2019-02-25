@@ -36,7 +36,7 @@ $('#home').on('click', function(event) {
 
   $("#full-toggle, #nav-full-toggle").click(function(){
     $("#halfday").slideUp(300,function(){
-      $("#fullday").slideToggle(300);
+      $("#fullday").slideToggle(300,);
     });    
     $(document.querySelector("#full-toggle")).toggleClass("active");
     $(document.querySelector("#half-toggle")).removeClass("active");
@@ -44,7 +44,7 @@ $('#home').on('click', function(event) {
 
   $("#half-toggle, #nav-half-toggle").click(function(){    
     $("#fullday").slideUp(300,function(){
-      $("#halfday").slideToggle(300);
+      $("#halfday").slideToggle(300,);
     });     
     $(document.querySelector("#half-toggle")).toggleClass("active");  
     $(document.querySelector("#full-toggle")).removeClass("active");     
