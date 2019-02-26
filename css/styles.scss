@@ -20,7 +20,9 @@
 }
 
 #banner {
-  background-image: url(../img/head-r.jpg);
+  background-image: url(../img/header.jpg);
+  background-position: 0 0px;
+  background-repeat: no-repeat;
 }
 
 .landing-small {
@@ -42,12 +44,11 @@
     max-width: 320px;
   }
   color: rgb(255, 246, 239);
-  // text-shadow: 1px 1px 50px rgba(0, 0, 0, 0.247), 1px 1px 30px rgba(0, 0, 0, 0.377);
   background: rgba(0, 0, 0, 0.151);
   border-radius: 10px;
   box-shadow: $shadow;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .landing__heading {
