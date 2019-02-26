@@ -50,3 +50,15 @@ $('#home').on('click', function(event) {
     $(document.querySelector("#full-toggle")).removeClass("active");     
   })
 
+//toggle subnav
+
+  $(".subnavbtn").mouseover(function(){
+    $(".subnav-content").addClass("shownav");
+    $(".subnavbtn").addClass("highlightnav");
+  })
+
+  $(".subnav-content").mouseleave(function(){
+    $(".subnav-content").removeClass("shownav");
+    $(".subnavbtn").removeClass("highlightnav");
+  })
+

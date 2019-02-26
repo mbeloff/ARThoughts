@@ -3,6 +3,46 @@ iframe {
   width: 80%;
 }
 
-.blog {
-  height: 150px;
+.article {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  & hr {
+    display: block;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fa7a24cb, rgba(0, 0, 0, 0));
+  }
+}
+
+.article__upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.article__heading {
+  font-family: $font-hand;
+  color: $primary-color;
+  line-height: 1.25em;
+  font-size: 2em; 
+  margin: 0;
+    color: white;
+    text-shadow:
+    -1px -1px 0 $primary-color,
+    1px -1px 0 $primary-color,
+    -1px 1px 0 $primary-color,
+    1px 1px 0 $primary-color;  
+}
+
+.article__date {
+  margin: 0;
+  font-weight: 800;
+  color: $mid-color;
+}
+
+.article__img {
+  width: 25%;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }

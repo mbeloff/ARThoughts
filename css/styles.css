@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
-  color: #0f0f0f;
+  color: #141414;
   overflow-x: hidden; }
 
 .container {
@@ -135,10 +135,6 @@ body {
       padding: 14px 2%;
       font-size: 12px; } }
 
-/* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  color: #0f0f0f; }
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   position: absolute;
@@ -161,7 +157,7 @@ body {
 /* Style the subnav links */
 .subnav-content a {
   float: left;
-  color: #0f0f0f;
+  color: #141414;
   text-decoration: none; }
 
 /* Add a grey background color on hover */
@@ -169,11 +165,13 @@ body {
   background-color: white;
   color: #fa7a24; }
 
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
+.shownav {
   -webkit-transition: all 1s;
   transition: all 1s;
   opacity: 1; }
+
+.highlightnav {
+  color: #141414 !important; }
 
 .footer {
   height: 50px;
@@ -239,7 +237,7 @@ body {
   margin: 50px 0;
   line-height: 1.4em; }
 
-.workshop__h1 {
+.workshop__heading {
   font-family: "Berkshire Swash";
   color: #fa7a24;
   line-height: 1.25em;
@@ -547,13 +545,13 @@ body {
   grid-column: 2/3;
   text-align: left; }
 
-.contact__h1 {
+.contact__heading {
   font-size: 2em;
   text-decoration: underline;
   -webkit-text-decoration-color: #fa7a24;
           text-decoration-color: #fa7a24; }
   @media only screen and (max-width: 768px) {
-    .contact__h1 {
+    .contact__heading {
       font-size: 1.5em;
       margin: 0; } }
 
@@ -654,8 +652,46 @@ iframe {
   height: 100vh;
   width: 80%; }
 
-.blog {
-  height: 150px; }
+.article {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px; }
+  .article hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa7a24cb), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fa7a24cb, rgba(0, 0, 0, 0)); }
+
+.article__upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.article__heading {
+  font-family: "Berkshire Swash";
+  color: #fa7a24;
+  line-height: 1.25em;
+  font-size: 2em;
+  margin: 0;
+  color: white;
+  text-shadow: -1px -1px 0 #fa7a24, 1px -1px 0 #fa7a24, -1px 1px 0 #fa7a24, 1px 1px 0 #fa7a24; }
+
+.article__date {
+  margin: 0;
+  font-weight: 800;
+  color: #333333; }
+
+.article__img {
+  width: 25%;
+  margin-right: 20px;
+  margin-bottom: 20px; }
 
 .landing {
   height: 500px;
