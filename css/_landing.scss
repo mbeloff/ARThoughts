@@ -1,0 +1,65 @@
+.landing {
+  height: 500px;
+  min-height: max-content;
+  background: $primary-color;
+  background-color: $primary-color;
+  background-size: cover;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  box-shadow: $shadow;
+}
+
+#banner {
+  background-image: url(../img/header.jpg);
+  background-position: 0 0px;
+  background-repeat: no-repeat;
+}
+
+.landing-small {
+  height: 250px;
+  margin-top: 100px;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.landing__content {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  @media only screen and (max-width: $break-med){
+    max-width: 320px;
+  }
+  color: rgb(255, 246, 239);
+  background: rgba(0, 0, 0, 0.151);
+  border-radius: 10px;
+  box-shadow: $shadow;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+  font-size: 1.1em;
+}
+
+.landing__heading {
+  font-family: $font-hand;
+  letter-spacing: .1em;
+  font-size: 3em;
+  margin: 0;
+  margin-left: auto;
+  position: relative;
+  
+  & span {
+    font-family: $font-1;
+    font-size: .5em;
+    position: absolute;
+  }
+}
+
+.landing__sub {
+  font-size: 1.2em;
+  font-weight: 800;
+}

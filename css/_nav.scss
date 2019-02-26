@@ -102,19 +102,19 @@
   text-decoration: none;
 }
 
-/* Add a grey background color on hover */
+/* Add a primary color on subnav link hover */
 .subnav-content a:hover {
-  background-color: white;
   color: $primary-color;
 }
 
+// toggle class for subnav visibility
 .shownav {
   visibility: visible;
   transition: all 1s;
   opacity: 1;
 }
 
-
+// toggle class for dropdown link highlight
 .highlightnav {
   color: $dark-color !important;
 }
