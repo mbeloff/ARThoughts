@@ -41,20 +41,23 @@
   @media only screen and (max-width: $break-med){
     max-width: 320px;
   }
-  color: rgb(255, 255, 255);
+  color: rgb(255, 246, 239);
   // text-shadow: 1px 1px 50px rgba(0, 0, 0, 0.247), 1px 1px 30px rgba(0, 0, 0, 0.377);
-  background: rgba(255, 135, 37, 0.74);
+  background: rgba(0, 0, 0, 0.151);
   border-radius: 10px;
   box-shadow: $shadow;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+  font-size: 1.2em;
 }
 
 .landing__heading {
   font-family: $font-hand;
-  color: rgba(255, 255, 255, 0.836);
   letter-spacing: .1em;
   font-size: 3em;
+  margin: 0;
   margin-left: auto;
   position: relative;
+  
   & span {
     font-family: $font-1;
     font-size: .5em;
@@ -64,6 +67,7 @@
 
 .landing__sub {
   font-size: 1.2em;
+  font-weight: 800;
 }
 
 .cri {

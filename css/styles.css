@@ -740,20 +740,22 @@ iframe {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 520px;
-  color: white;
-  background: rgba(255, 135, 37, 0.74);
+  color: #fff6ef;
+  background: rgba(0, 0, 0, 0.151);
   border-radius: 10px;
   -webkit-box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
-          box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02); }
+          box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+  font-size: 1.2em; }
   @media only screen and (max-width: 768px) {
     .landing__content {
       max-width: 320px; } }
 
 .landing__heading {
   font-family: "Berkshire Swash";
-  color: rgba(255, 255, 255, 0.836);
   letter-spacing: .1em;
   font-size: 3em;
+  margin: 0;
   margin-left: auto;
   position: relative; }
   .landing__heading span {
@@ -762,7 +764,8 @@ iframe {
     position: absolute; }
 
 .landing__sub {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  font-weight: 800; }
 
 .cri {
   margin: 50px auto 0 auto;
