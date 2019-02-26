@@ -60,6 +60,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.445)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(255, 255, 255, 0));
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -90,12 +92,14 @@ body {
 .navbar:hover {
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
-  background-color: #fa7a24; }
+  background-color: #fa7a24;
+  background-image: none; }
 
 .navbar.solid {
   background-color: #fa7a24;
   -webkit-box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
-          box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02); }
+          box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.08), 0px 10px 5px -8px rgba(0, 0, 0, 0.02);
+  background-image: none; }
 
 /* Navigation links */
 .navbar a {
@@ -474,7 +478,8 @@ body {
   color: #3b3131;
   text-align: right;
   padding: 45px 0 0 0;
-  background: white; }
+  background: white;
+  font-family: "Montserrat"; }
   .about hr {
     display: none; }
     @media only screen and (max-width: 768px) {
@@ -605,7 +610,8 @@ body {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  font-family: "Montserrat"; }
   @media only screen and (max-width: 768px) {
     .contact-container {
       display: -ms-grid;
