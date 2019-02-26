@@ -244,6 +244,7 @@ body {
 
 .workshop__heading {
   font-family: "Berkshire Swash";
+  text-align: center;
   color: #fa7a24;
   line-height: 1.25em;
   font-size: 3em;
