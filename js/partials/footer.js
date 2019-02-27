@@ -1,1 +1,0 @@
-document.write('<footer class="footer"><div class="container footer__container"><p class="copy">&copy copyright 2019</p><div class="social"><i class="social-icon fab fa-facebook-square fa-2x"></i><i class="social-icon fab fa-twitter-square fa-2x"></i><i class="social-icon fab fa-instagram fa-2x"></i></div></div></footer>')
