@@ -1,0 +1,1 @@
+document.write('<section class="landing" id="banner"><div class="container landing-container"><div class="landing__content"><h1 class="landing__heading">Discover the Joy of Painting<span>®</span></h1><p class="landing__sub">Painting workshops with Maaret Webb, teaching artist and Certified Bob Ross Instructor</p></div></div></section>')

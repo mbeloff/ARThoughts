@@ -715,8 +715,9 @@ iframe {
 
 .article__date {
   margin: 0;
-  font-weight: 800;
-  color: #333333; }
+  font-size: .75em;
+  font-weight: 400;
+  color: rgba(56, 53, 53, 0.479); }
 
 .article__img {
   width: 25%;
