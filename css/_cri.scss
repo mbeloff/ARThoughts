@@ -40,12 +40,12 @@
 
 .blockquote {
   font-family: Georgia, serif;
-    font-size: 14px;
+    font-size: 1em;
     font-style: italic;
     color: rgba(221, 217, 217, 0.897);
     letter-spacing: .1em;
-    max-width: 450px;
-    margin: 0 auto 10px auto;
+    max-width: 650px;
+    margin: 10px auto 25px auto;
     padding: 0.35em 40px;
     line-height: 1.45;
     position: relative;
@@ -67,6 +67,7 @@
   max-width: 800px;
   margin: auto;
   margin-bottom: 1em;
+  text-indent: 2em;
   line-height: 1;
   @media only screen and (max-width: $break-med){
     text-align: left;

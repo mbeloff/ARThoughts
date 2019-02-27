@@ -24,8 +24,11 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   & span {
-    font-family: $font-hand;
+    font-family: 'Pacifico';
   }
   
   @media only screen and (max-width: $break-small){
@@ -80,7 +83,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  width: 100px;
+  width: 110px;
   @media only screen and (max-width: $break-med){
     padding: 14px 2%;
     font-size: 12px;
@@ -94,6 +97,7 @@
   visibility: hidden;
   justify-content: flex-end;
   right: 0;
+  top: 46px;
   background-color: white;
   width: 100%;
   z-index: 1;

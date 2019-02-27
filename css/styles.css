@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat";
   color: #141414;
   overflow-x: hidden; }
 
@@ -85,12 +85,21 @@ body {
             justify-content: flex-end;
     width: 100%; } }
 
-.logo span {
-  font-family: "Berkshire Swash"; }
-
-@media only screen and (max-width: 500px) {
-  .logo {
-    display: none; } }
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .logo span {
+    font-family: 'Pacifico'; }
+  @media only screen and (max-width: 500px) {
+    .logo {
+      display: none; } }
 
 .navbar:hover {
   -webkit-transition: background-color 1s;
@@ -136,7 +145,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  width: 100px; }
+  width: 110px; }
   @media only screen and (max-width: 768px) {
     .subnav .subnavbtn {
       padding: 14px 2%;
@@ -153,6 +162,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   right: 0;
+  top: 46px;
   background-color: white;
   width: 100%;
   z-index: 1;
@@ -253,6 +263,9 @@ body {
   font-size: 3em;
   color: white;
   text-shadow: -1px -1px 0 #fa7a24, 1px -1px 0 #fa7a24, -1px 1px 0 #fa7a24, 1px 1px 0 #fa7a24; }
+
+.workshop__p {
+  text-indent: 2em; }
 
 .expect {
   padding-top: 50px; }
@@ -541,7 +554,7 @@ body {
   margin: 0; }
 
 .about__value {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat";
   text-align: left;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -776,7 +789,7 @@ iframe {
   margin-left: auto;
   position: relative; }
   .landing__heading span {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat";
     font-size: .5em;
     position: absolute; }
 
@@ -811,7 +824,7 @@ iframe {
   font-weight: 600;
   position: relative; }
   .cri__heading span {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat";
     font-size: .5em;
     position: absolute; }
   @media only screen and (max-width: 500px) {
@@ -823,12 +836,12 @@ iframe {
 
 .blockquote {
   font-family: Georgia, serif;
-  font-size: 14px;
+  font-size: 1em;
   font-style: italic;
   color: rgba(221, 217, 217, 0.897);
   letter-spacing: .1em;
-  max-width: 450px;
-  margin: 0 auto 10px auto;
+  max-width: 650px;
+  margin: 10px auto 25px auto;
   padding: 0.35em 40px;
   line-height: 1.45;
   position: relative; }
@@ -847,6 +860,7 @@ iframe {
   max-width: 800px;
   margin: auto;
   margin-bottom: 1em;
+  text-indent: 2em;
   line-height: 1; }
   @media only screen and (max-width: 768px) {
     .cri__p {
