@@ -51,16 +51,6 @@
     position: relative;
 }
 
-.blockquote::before {
-  display: block;
-    padding-left: 10px;
-    content: "\201C";
-    font-size: 3em;
-    position: absolute;
-    left: 10px;
-    top: -20px;
-}
-
 .blockquote cite {
   font-size: 14px;
   display: block;
@@ -76,6 +66,7 @@
   width: 100%;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 1em;
   line-height: 1;
   @media only screen and (max-width: $break-med){
     text-align: left;

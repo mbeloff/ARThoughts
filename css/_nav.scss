@@ -24,6 +24,10 @@
 }
 
 .logo {
+  & span {
+    font-family: $font-hand;
+  }
+  
   @media only screen and (max-width: $break-small){
     display: none;
   }

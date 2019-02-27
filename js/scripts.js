@@ -9,27 +9,6 @@ $(document).ready(function () {
     }
   });
 
-  //scroll to section
-  $('a[href^="#"]').on('click', function (event) {
-    var target = $(this.getAttribute('href'));
-    if (target.length) {
-      event.preventDefault();
-      $('html, body').stop().animate({
-        scrollTop: target.offset().top - 130
-      }, 10);
-    }
-  });
-
-  $('#home').on('click', function (event) {
-    var target = $(this.getAttribute('href'));
-    if (target.length) {
-      event.preventDefault();
-      $('html, body').stop().animate({
-        scrollTop: target.offset().top
-      }, 10);
-    }
-  });
-
   //toggle workshop extra info
   $("#full-toggle, #nav-full-toggle").click(function () {
     $("#halfday").slideUp(300, function () {
@@ -58,4 +37,34 @@ $(document).ready(function () {
     $(".subnavbtn").removeClass("highlightnav");
   })
 
+
+
+  // scroll to section
+  jQuery(function ($) {
+    $('a[href*="#"]:not([href="#"])').click(function (e) {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+        var target = $(this.hash);
+        headerHeight = 120;
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').stop().animate({
+            scrollTop: target.offset().top - headerHeight
+          }, 10);
+        }
+      }
+    });
+  });
+
+  jQuery(document).ready(function ($) {
+    var hash = window.location.hash
+    if (hash == '' || hash == '#' || hash == undefined) return false;
+    var target = $(hash);
+    headerHeight = 120;
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html,body').stop().animate({
+        scrollTop: target.offset().top - headerHeight
+      }, 10);
+    }
+  });
 });
