@@ -17,12 +17,19 @@
     1px 1px 0 $primary-color;  
 }
 
+.workshop__p {
+  text-indent: 2em;
+  margin: 20px auto 40px auto;
+  font-family: $font-1;
+}
+
 .expect {
   padding-top: 50px;
 }
 
 #whattoexpect {
   text-align: center;
+  margin-bottom: 0;
 }
 
 #fullday {

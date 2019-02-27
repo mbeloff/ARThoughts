@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat";
   color: #141414;
   overflow-x: hidden; }
 
@@ -52,6 +52,12 @@ body {
             transform: rotate(45deg);
     z-index: -1; }
 
+.bold {
+  font-weight: 800; }
+
+.center {
+  text-align: center; }
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,9 +91,11 @@ body {
             justify-content: flex-end;
     width: 100%; } }
 
-@media only screen and (max-width: 500px) {
-  .logo {
-    display: none; } }
+.logo {
+  padding-left: 10px; }
+  @media only screen and (max-width: 500px) {
+    .logo {
+      display: none; } }
 
 .navbar:hover {
   -webkit-transition: background-color 1s;
@@ -111,8 +119,12 @@ body {
   text-decoration: none; }
   @media only screen and (max-width: 768px) {
     .navbar a {
-      padding: 14px 10px;
+      padding: 14px 0px;
       font-size: 12px; } }
+
+#navbar-contact {
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .navbar a.active-nav {
   font-weight: 700;
@@ -133,7 +145,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  width: 100px; }
+  width: 120px; }
   @media only screen and (max-width: 768px) {
     .subnav .subnavbtn {
       padding: 14px 2%;
@@ -149,6 +161,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  top: 46px;
   right: 0;
   background-color: white;
   width: 100%;
@@ -251,11 +264,17 @@ body {
   color: white;
   text-shadow: -1px -1px 0 #fa7a24, 1px -1px 0 #fa7a24, -1px 1px 0 #fa7a24, 1px 1px 0 #fa7a24; }
 
+.workshop__p {
+  text-indent: 2em;
+  margin: 20px auto 40px auto;
+  font-family: "Montserrat"; }
+
 .expect {
   padding-top: 50px; }
 
 #whattoexpect {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
 
 #fullday {
   display: none;
@@ -538,7 +557,7 @@ body {
   margin: 0; }
 
 .about__value {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat";
   text-align: left;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -772,7 +791,7 @@ iframe {
   margin-left: auto;
   position: relative; }
   .landing__heading span {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat";
     font-size: .5em;
     position: absolute; }
 
@@ -807,7 +826,7 @@ iframe {
   font-weight: 600;
   position: relative; }
   .cri__heading span {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat";
     font-size: .5em;
     position: absolute; }
   @media only screen and (max-width: 500px) {
@@ -819,24 +838,15 @@ iframe {
 
 .blockquote {
   font-family: Georgia, serif;
-  font-size: 14px;
+  font-size: 1em;
   font-style: italic;
-  color: rgba(221, 217, 217, 0.897);
+  font-weight: 100;
+  color: rgba(221, 217, 217, 0.788);
   letter-spacing: .1em;
   max-width: 450px;
-  margin: 0 auto 10px auto;
-  padding: 0.35em 40px;
+  margin: 15px auto 20px auto;
   line-height: 1.45;
   position: relative; }
-
-.blockquote::before {
-  display: block;
-  padding-left: 10px;
-  content: "\201C";
-  font-size: 3em;
-  position: absolute;
-  left: 10px;
-  top: -20px; }
 
 .blockquote cite {
   font-size: 14px;
@@ -848,13 +858,13 @@ iframe {
 
 .cri__p {
   text-align: left;
+  font-family: "Montserrat";
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  line-height: 1; }
-  @media only screen and (max-width: 768px) {
-    .cri__p {
-      text-align: left; } }
+  margin-bottom: 1em;
+  text-indent: 2em;
+  line-height: 1.2; }
 
 .cri__img-container {
   width: 75%;

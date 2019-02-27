@@ -40,25 +40,15 @@
 
 .blockquote {
   font-family: Georgia, serif;
-    font-size: 14px;
-    font-style: italic;
-    color: rgba(221, 217, 217, 0.897);
-    letter-spacing: .1em;
-    max-width: 450px;
-    margin: 0 auto 10px auto;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-}
-
-.blockquote::before {
-  display: block;
-    padding-left: 10px;
-    content: "\201C";
-    font-size: 3em;
-    position: absolute;
-    left: 10px;
-    top: -20px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 100;
+  color: rgba(221, 217, 217, 0.788);
+  letter-spacing: .1em;
+  max-width: 450px;
+  margin: 15px auto 20px auto;
+  line-height: 1.45;
+  position: relative;
 }
 
 .blockquote cite {
@@ -73,13 +63,13 @@
 
 .cri__p {
   text-align: left;
+  font-family: $font-1;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  line-height: 1;
-  @media only screen and (max-width: $break-med){
-    text-align: left;
-  }
+  margin-bottom: 1em;
+  text-indent: 2em;
+  line-height: 1.2;
 }
 
 .cri__img-container {
