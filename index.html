@@ -11,7 +11,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body>npm install --global --production windows-build-tools
   <div class="navbar">
     <div class="logo"><a href="#"><span>ART</span>houghts</a></div>
     <div class="nav-right">
@@ -154,12 +154,62 @@
     <section class="pictures" id="gallery">
       <div class="gallery-container">
         <div class="gallery">
-          <div class="gallery__item img-1"><img src="/img/1.jpg"></div>
-          <div class="gallery__item img-2"><img src="/img/2.jpg"></div>
-          <div class="gallery__item img-3"><img src="/img/3.jpg"></div>
-          <div class="gallery__item img-4"><img src="/img/4.jpg"></div>
-          <div class="gallery__item img-5"><img src="/img/5.jpg"></div>
-          <div class="gallery__item img-6"><img src="/img/6.jpg"></div>
+          <div class="gallery__item img-1"><img
+            sizes="(max-width: 640px) 100vw, 640px"
+            srcset="
+            /img/responsive_gallery/1_hzlq7o_c_scale,w_150.jpg 150w,
+           /img/responsive_gallery/1_hzlq7o_c_scale,w_297.jpg 297w,
+            /img/responsive_gallery/1_hzlq7o_c_scale,w_410.jpg 410w,
+            /img/responsive_gallery/1_hzlq7o_c_scale,w_510.jpg 510w,
+            /img/responsive_gallery/1_hzlq7o_c_scale,w_640.jpg 640w"
+            src="/img/responsive_gallery/1_hzlq7o_c_scale,w_640.jpg"
+            alt=""></div>
+          <div class="gallery__item img-2"><img
+            sizes="(max-width: 594px) 100vw, 594px"
+            srcset="
+            /img/responsive_gallery/2_tcxome_c_scale,w_150.jpg 150w,
+            /img/responsive_gallery/2_tcxome_c_scale,w_313.jpg 313w,
+            /img/responsive_gallery/2_tcxome_c_scale,w_434.jpg 434w,
+            /img/responsive_gallery/2_tcxome_c_scale,w_594.jpg 594w"
+            src="/img/responsive_gallery/2_tcxome_c_scale,w_594.jpg"
+            alt=""></div>
+          <div class="gallery__item img-3"><img
+            sizes="(max-width: 1400px) 100vw, 1400px"
+            srcset="
+            /img/responsive_gallery/3_tik4kq_c_scale,w_150.jpg 150w,
+            /img/responsive_gallery/3_tik4kq_c_scale,w_689.jpg 689w,
+            /img/responsive_gallery/3_tik4kq_c_scale,w_1016.jpg 1016w,
+            /img/responsive_gallery/3_tik4kq_c_scale,w_1282.jpg 1282w,
+            /img/responsive_gallery/3_tik4kq_c_scale,w_1400.jpg 1400w"
+            src="/img/responsive_gallery/3_tik4kq_c_scale,w_1400.jpg"
+            alt=""></div>
+          <div class="gallery__item img-4"><img
+            sizes="(max-width: 700px) 100vw, 700px"
+            srcset="
+            /img/responsive_gallery/4_qv3nyu_c_scale,w_150.jpg 150w,
+            /img/responsive_gallery/4_qv3nyu_c_scale,w_364.jpg 364w,
+            /img/responsive_gallery/4_qv3nyu_c_scale,w_514.jpg 514w,
+            /img/responsive_gallery/4_qv3nyu_c_scale,w_700.jpg 700w"
+            src="/img/responsive_gallery/4_qv3nyu_c_scale,w_700.jpg"
+            alt=""></div>
+          <div class="gallery__item img-5"><img
+            sizes="(max-width: 700px) 100vw, 700px"
+            srcset="
+            /img/responsive_gallery/5_f32blb_c_scale,w_150.jpg 150w,
+            /img/responsive_gallery/5_f32blb_c_scale,w_315.jpg 315w,
+            /img/responsive_gallery/5_f32blb_c_scale,w_436.jpg 436w,
+            /img/responsive_gallery/5_f32blb_c_scale,w_539.jpg 539w,
+            /img/responsive_gallery/5_f32blb_c_scale,w_700.jpg 700w"
+            src="/img/responsive_gallery/5_f32blb_c_scale,w_700.jpg"
+            alt=""></div>
+          <div class="gallery__item img-6"><img
+            sizes="(max-width: 501px) 100vw, 501px"
+            srcset="
+            /img/responsive_gallery/6_eqcmuv_c_scale,w_150.jpg 150w,
+            /img/responsive_gallery/6_eqcmuv_c_scale,w_346.jpg 346w,
+            /img/responsive_gallery/6_eqcmuv_c_scale,w_501.jpg 501w"
+            src="/img/responsive_gallery/6_eqcmuv_c_scale,w_501.jpg"
+            alt=""></div>
         </div>
       </div>
     </section>
