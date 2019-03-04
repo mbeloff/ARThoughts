@@ -96,7 +96,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
   .logo span {
-    font-family: 'Pacifico'; }
+    font-family: Arial, Helvetica, sans-serif; }
   @media only screen and (max-width: 500px) {
     .logo {
       display: none; } }
