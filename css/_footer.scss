@@ -18,22 +18,6 @@
   font-family: "montserrat"
 }
 
-.social {
-  visibility: hidden;
-  display: flex;
-  align-items: center;
-  justify-self: center;
-}
-
-.social-icon {
-  margin: 0 2px 0 2px;
-  transition: transform 150ms;
-  &:hover {
-    color: white;
-    transform: scale(1.1);
-  }
-}
-
 .footer__arrow {
   display: flex;
   justify-content: center;
