@@ -460,6 +460,17 @@ body {
       -ms-flex: 1;
           flex: 1; }
 
+.acuity-embed-button {
+  background: #fa7a24;
+  color: #fff;
+  padding: 8px 12px;
+  border: 0px;
+  -webkit-box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block; }
+
 .contact-grid {
   display: -ms-grid;
   display: grid;
@@ -641,6 +652,13 @@ body {
 
 .contact__btn {
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
   color: white;
   font-family: 'Montserrat';
   border: none;
@@ -651,9 +669,12 @@ body {
   .contact__btn:hover {
     background: #3a3232;
     color: #fa7a24; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 768px) {
     .contact__btn {
-      display: inline-block; } }
+      margin: auto; } }
+  .contact__btn img {
+    width: 20px;
+    height: 20px; }
 
 iframe {
   height: 100vh;
