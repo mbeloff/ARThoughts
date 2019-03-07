@@ -2,6 +2,7 @@
   text-align: center;
   border: 1px solid $primary-color;
   border-radius: 5px;
+  box-shadow: $shadow;
 }
 
 .booking-flex {
@@ -19,6 +20,7 @@
   justify-items: space-between;
   font-size: .6em;
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .booking-name {
@@ -55,10 +57,3 @@
   background-size: cover;
 }
 
-// .acuity-embed-button {
-//   background: $primary-color;
-//   color: #fff;
-//   border: none;
-//   border-radius: 0px;
-//   width: 100%;
-// }
