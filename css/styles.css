@@ -460,17 +460,6 @@ body {
       -ms-flex: 1;
           flex: 1; }
 
-.acuity-embed-button {
-  background: #fa7a24;
-  color: #fff;
-  padding: 8px 12px;
-  border: 0px;
-  -webkit-box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
-  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
-  border-radius: 4px;
-  text-decoration: none;
-  display: inline-block; }
-
 .contact-grid {
   display: -ms-grid;
   display: grid;
@@ -952,4 +941,69 @@ iframe {
 .display-image:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15); }
+
+.booking-container {
+  text-align: center;
+  border: 1px solid #fa7a24;
+  border-radius: 5px; }
+
+.booking-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.booking-workshop {
+  width: 200px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: space-between;
+  font-size: .6em;
+  margin: 10px; }
+
+.booking-name {
+  text-transform: uppercase; }
+
+.booking-img {
+  height: 250px;
+  width: 200px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.booking-overlay {
+  background: rgba(0, 0, 0, 0.445); }
+
+.booking-mountain {
+  background: url(../img/resize/thumbs/5.jpg);
+  background-size: cover; }
+
+.booking-sea {
+  background: url(../img/resize/thumbs/10.jpg);
+  background-size: cover; }
+
+.booking-forest {
+  background: url(../img/resize/thumbs/3.jpg);
+  background-size: cover; }
 /*# sourceMappingURL=styles.css.map */

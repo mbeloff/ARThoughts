@@ -1,0 +1,64 @@
+.booking-container {
+  text-align: center;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}
+
+.booking-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.booking-workshop {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  font-size: .6em;
+  margin: 10px;
+}
+
+.booking-name {
+  text-transform: uppercase;
+
+}
+
+.booking-img {
+  height: 250px;
+  width: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.booking-overlay {
+  background: rgba(0, 0, 0, 0.445);
+}
+
+.booking-mountain {
+  background: url(../img/resize/thumbs/5.jpg);
+  background-size: cover;
+}
+
+.booking-sea {
+  background: url(../img/resize/thumbs/10.jpg);
+  background-size: cover;
+}
+
+.booking-forest {
+  background: url(../img/resize/thumbs/3.jpg);
+  background-size: cover;
+}
+
+// .acuity-embed-button {
+//   background: $primary-color;
+//   color: #fff;
+//   border: none;
+//   border-radius: 0px;
+//   width: 100%;
+// }
