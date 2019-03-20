@@ -980,7 +980,10 @@ iframe {
   margin-bottom: 20px; }
 
 .booking-name {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.4);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
 
 .booking-img {
   height: 250px;
@@ -995,7 +998,8 @@ iframe {
           flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  border-radius: 10px; }
 
 .booking-overlay {
   background: rgba(0, 0, 0, 0.445); }
