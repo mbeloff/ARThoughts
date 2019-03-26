@@ -666,10 +666,6 @@ body {
     width: 20px;
     height: 20px; }
 
-iframe {
-  height: 100vh;
-  width: 80%; }
-
 .article {
   width: 70%;
   margin: auto;
