@@ -285,6 +285,8 @@ body {
   @media only screen and (max-width: 500px) {
     .workshop__list {
       width: 100%; } }
+  .workshop__list li {
+    margin-bottom: 3px; }
 
 .workshop__list-item::before {
   display: inline-block;
