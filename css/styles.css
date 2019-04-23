@@ -478,6 +478,10 @@ body {
       -ms-flex: 1;
           flex: 1; }
 
+.email-link {
+  text-decoration: none;
+  color: #fa7a24; }
+
 .contact-grid {
   display: -ms-grid;
   display: grid;
