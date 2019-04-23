@@ -6,6 +6,8 @@
   box-shadow: $shadow;
   padding: 10px;
   border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(243, 240, 240);
 }
 
 .workshop__heading {
@@ -24,8 +26,9 @@
 
 .workshop__p {
   text-indent: 2em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
+  font-size: 1.1em;
 }
 
 .expect {
