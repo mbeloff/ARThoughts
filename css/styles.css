@@ -482,6 +482,10 @@ body {
   text-decoration: none;
   color: #fa7a24; }
 
+.booknow {
+  font-family: "Berkshire Swash";
+  font-size: 1.2em; }
+
 .contact-grid {
   display: -ms-grid;
   display: grid;
