@@ -2,7 +2,7 @@
   text-align: center;
   border: 1px solid $primary-color;
   border-radius: 5px;
-  box-shadow: $shadow;
+  margin-top: 20px;
 }
 
 .booking-flex {
@@ -21,7 +21,13 @@
   font-size: .8em;
   margin: 10px;
   margin-bottom: 20px;
-  
+  & a {
+    text-decoration: none;
+    color: $primary-color;
+    &:visited {
+      color: $primary-color;
+    }
+  }
 }
 
 .booking-name {
@@ -68,7 +74,11 @@
 }
 
 .enq-btn {
+  display: block;
   box-shadow: $shadow;
   text-decoration: none;
+  margin: auto;
+  margin-top: 20px;
+  width:150px;
 }
 

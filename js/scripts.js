@@ -9,23 +9,6 @@ $(document).ready(function () {
     }
   });
 
-  //toggle workshop extra info
-  $("#full-toggle, #nav-full-toggle").click(function () {
-    $("#halfday").slideUp(300, function () {
-      $("#fullday").slideToggle(300, );
-    });
-    $(document.querySelector("#full-toggle")).toggleClass("active");
-    $(document.querySelector("#half-toggle")).removeClass("active");
-  })
-
-  $("#half-toggle, #nav-half-toggle").click(function () {
-    $("#fullday").slideUp(300, function () {
-      $("#halfday").slideToggle(300, );
-    });
-    $(document.querySelector("#half-toggle")).toggleClass("active");
-    $(document.querySelector("#full-toggle")).removeClass("active");
-  })
-
   //toggle subnav
   $(".subnavbtn").mouseover(function () {
     $(".subnav-content").addClass("shownav");
