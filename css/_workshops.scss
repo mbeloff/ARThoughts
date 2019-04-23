@@ -13,15 +13,15 @@
 .workshop__heading {
   font-family: $font-hand;
   text-align: center;
-  color: $primary-color;
+  color: rgb(70, 64, 64);
   line-height: 1.25em;
   font-size: 3em; 
-    color: white;
-    text-shadow:
-    -1px -1px 0 $primary-color,
-    1px -1px 0 $primary-color,
-    -1px 1px 0 $primary-color,
-    1px 1px 0 $primary-color;  
+    // color: white;
+    // text-shadow:
+    // -1px -1px 0 $primary-color,
+    // 1px -1px 0 $primary-color,
+    // -1px 1px 0 $primary-color,
+    // 1px 1px 0 $primary-color;  
 }
 
 .workshop__p {

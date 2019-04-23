@@ -247,11 +247,9 @@ body {
 .workshop__heading {
   font-family: "Berkshire Swash";
   text-align: center;
-  color: #fa7a24;
+  color: #464040;
   line-height: 1.25em;
-  font-size: 3em;
-  color: white;
-  text-shadow: -1px -1px 0 #fa7a24, 1px -1px 0 #fa7a24, -1px 1px 0 #fa7a24, 1px 1px 0 #fa7a24; }
+  font-size: 3em; }
 
 .workshop__p {
   text-indent: 2em;
