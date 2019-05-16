@@ -214,6 +214,17 @@ body {
           justify-content: space-between;
   margin: auto; }
 
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+a .fab {
+  color: #e2d9d3; }
+
 .copy {
   font-size: .9em;
   font-family: "montserrat"; }

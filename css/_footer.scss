@@ -14,7 +14,15 @@
 }
 
 .social {
+  display: flex;
+  align-items: center;
+}
 
+a {
+
+  .fab {
+  color: rgb(226, 217, 211);
+}
 }
 
 .copy {
