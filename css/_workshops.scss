@@ -162,21 +162,6 @@
   }
 }
 
-@media only screen and (max-width: $break-med) {
-  .card-full {
-    grid-row: 1/2;
-  }
-  #fullday {
-    grid-row: 2/3;
-  }
-  .card-half {
-    grid-row: 3/4;
-  }
-  #halfday {
-    grid-row: 4/5;
-  }
-}
-
 .card__content {
  display: flex;
  flex-direction: column;
