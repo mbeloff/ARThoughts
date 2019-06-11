@@ -192,6 +192,9 @@ body {
 .highlightnav {
   color: #141414 !important; }
 
+.booking-btn {
+  font-weight: 600; }
+
 .footer {
   height: 50px;
   background: #3a3232;
