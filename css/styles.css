@@ -974,9 +974,11 @@ a .fab {
 
 .booking-container {
   text-align: center;
-  border: 1px solid #ff7519;
-  border-radius: 5px;
-  margin-top: 20px; }
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.055);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.055); }
 
 .booking-flex {
   display: -webkit-box;
