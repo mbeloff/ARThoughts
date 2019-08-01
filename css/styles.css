@@ -289,19 +289,23 @@ a .fab {
   grid-column: 1/3; }
 
 .workshop__list {
-  width: 50%;
+  width: 75%;
   list-style: none;
   margin: auto;
+  margin-bottom: 1rem;
+  padding-left: 20px;
   text-align: left; }
   @media only screen and (max-width: 768px) {
     .workshop__list {
       width: 75%;
-      margin: 0; } }
+      margin: 0;
+      padding-left: 10px; } }
   @media only screen and (max-width: 500px) {
     .workshop__list {
-      width: 100%; } }
+      width: 100%;
+      padding-left: 2px; } }
   .workshop__list li {
-    margin-bottom: 3px; }
+    margin-bottom: 10px; }
 
 .workshop__list-item::before {
   display: inline-block;

@@ -48,19 +48,23 @@
 }
 
 .workshop__list {
-  width: 50%;
+  width: 75%;
   list-style: none;
   margin: auto;
+  margin-bottom: 1rem;
+  padding-left: 20px;
   text-align: left;
   @media only screen and (max-width: $break-med){
     width: 75%;
     margin: 0;
+    padding-left: 10px;
   }
   @media only screen and (max-width: $break-small){
     width: 100%;
+   padding-left: 2px;
   }  
   li {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
   }
 }
 
