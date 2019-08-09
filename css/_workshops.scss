@@ -11,7 +11,7 @@
 }
 
 .workshop__heading {
-  font-family: $font-hand;
+  font-family: $font-1;
   text-align: center;
   color: rgb(70, 64, 64);
   line-height: 1.25em;
@@ -48,10 +48,9 @@
 }
 
 .workshop__list {
-  width: 75%;
+  width: 65%;
   list-style: none;
-  margin: auto;
-  margin-bottom: 1rem;
+  margin: 3rem auto 3rem auto;
   padding-left: 20px;
   text-align: left;
   @media only screen and (max-width: $break-med){
@@ -208,8 +207,8 @@
 }
 
 .booknow {
-  font-family: $font-hand;
+  font-family: $font-1;
   font-size: 1.2em;
-
+  text-align: center;
 }
 

@@ -4,8 +4,8 @@
   padding: 25px 0;
   color: $primary-color;
   background: rgb(58, 50, 50);
-  border-top: 10px solid $primary-color;
-  border-bottom: 10px solid $primary-color;
+  // border-top: 12px solid $primary-color;
+  // border-bottom: 12px solid $primary-color;
   text-align: center;
   display: flex;
   padding-bottom: 150px;
@@ -21,7 +21,7 @@
 .cri__heading {
   font-size: 3em;
   margin-bottom: 0;
-  font-family: $font-hand;
+  font-family: $font-1;
   font-weight: 600;
   position: relative;
   & span {
@@ -65,10 +65,10 @@
 .cri__p {
   text-align: left;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   margin-bottom: 1em;
-  text-indent: 2em;
+  // text-indent: 2em;
   line-height: 1.2;
   color: rgb(236, 235, 235);
   @media only screen and (max-width: $break-med){
