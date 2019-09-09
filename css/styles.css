@@ -225,8 +225,13 @@ body {
       -ms-flex-align: center;
           align-items: center; }
 
-a .fab {
-  color: #e2d9d3; }
+a {
+  color: #e2d9d3;
+  text-decoration: none;
+  margin-right: 10px; }
+  a .fab {
+    color: #e2d9d3;
+    margin-right: 5px; }
 
 .copy {
   font-size: .9em;
