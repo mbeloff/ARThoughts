@@ -1,34 +1,35 @@
 .workshop {
   margin: 50px 0;
-  line-height: 1.4em;
+  // line-height: 1.4em;
   text-align: center;
   margin-bottom: 50px;
-  box-shadow: $shadow;
-  padding: 10px;
+  // box-shadow: $shadow;
+  // padding: 10px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(243, 240, 240);
+  // border: 1px solid rgb(243, 240, 240);
+  a {
+    color: $primary-color;
+  }
 }
 
 .workshop__heading {
   font-family: $font-1;
+  font-weight: 300;
   text-align: center;
   color: rgb(70, 64, 64);
   line-height: 1.25em;
-  font-size: 3em; 
-    // color: white;
-    // text-shadow:
-    // -1px -1px 0 $primary-color,
-    // 1px -1px 0 $primary-color,
-    // -1px 1px 0 $primary-color,
-    // 1px 1px 0 $primary-color;  
+  font-size: 2em; 
 }
 
 .workshop__p {
   // text-indent: 2em;
   text-align: left;
-  margin-bottom: 50px;
-  font-size: 1.1em;
+  
+  margin: auto;
+  margin-bottom: 16px;
+  font-size: 1em;
+  max-width: 900px;
 }
 
 .expect {
@@ -49,18 +50,19 @@
 
 .workshop__list {
   width: 65%;
+  max-width: 900px;
   list-style: none;
   margin: 3rem auto 3rem auto;
   padding-left: 20px;
   text-align: left;
   @media only screen and (max-width: $break-med){
     width: 75%;
-    margin: 0;
+    // margin: 3rem 0 3rem 0;
     padding-left: 10px;
   }
   @media only screen and (max-width: $break-small){
     width: 100%;
-   padding-left: 2px;
+   padding-left: 10px;
   }  
   li {
     margin-bottom: 10px;
@@ -181,7 +183,6 @@
   margin: auto;
   flex: 3;
   padding: 0;
-  line-height: 1.5em;
 }
 
 .card__item::before {
@@ -208,7 +209,9 @@
 
 .booknow {
   font-family: $font-1;
-  font-size: 1.2em;
+  font-size: 2em;
   text-align: center;
+  color: white;
+  font-weight: 300;
 }
 

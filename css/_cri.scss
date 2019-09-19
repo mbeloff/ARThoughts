@@ -1,9 +1,9 @@
 .cri {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0 auto 0 auto;
   padding: 25px 0;
   color: $primary-color;
-  background: rgb(58, 50, 50);
+  // background: rgb(58, 50, 50);
   // border-top: 12px solid $primary-color;
   // border-bottom: 12px solid $primary-color;
   text-align: center;
@@ -43,7 +43,7 @@
   font-family: Georgia, serif;
     font-size: 1em;
     font-style: italic;
-    color: rgba(221, 217, 217, 0.897);
+    // color: rgba(221, 217, 217, 0.897);
     letter-spacing: .1em;
     max-width: 650px;
     margin: 10px auto 25px auto;
@@ -68,9 +68,7 @@
   max-width: 900px;
   margin: auto;
   margin-bottom: 1em;
-  // text-indent: 2em;
-  line-height: 1.2;
-  color: rgb(236, 235, 235);
+  color: $dark-color;
   @media only screen and (max-width: $break-med){
     text-align: left;
   }
