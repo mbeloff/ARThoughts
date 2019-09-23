@@ -171,6 +171,10 @@
   color: $primary-color;
 }
 
+.contacts a {
+  color: inherit;
+}
+
 .contact__btn {
   text-decoration: none;
   display: flex;

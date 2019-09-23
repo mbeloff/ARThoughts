@@ -1,4 +1,4 @@
-#booking-section {
+#booknow {
   background: #ff7f40;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -12,6 +12,14 @@
   padding: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.055);
   background: white;
+}
+
+.booking-info-link {
+  font-size: 2rem;
+  color: inherit;
+ &.small {
+   font-size: 1.15rem;
+ }
 }
 
 .booking-flex {
